@@ -11,3 +11,25 @@
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
 </p>
+
+**overview**
+
+## Machine Learning Algorithms and Techniques
+
+This repository covers a wide range of machine learning algorithms and techniques, including:
+
+- **Linear Regression**
+- **Random Forest**
+- **Decision Tree**
+- **Logistic Regression**
+- **Naive Bayes**
+- **Support Vector Machines (SVM)**
+- **Mean**
+- **K-Nearest Neighbors (KNN)**
+- **Gradient Boosting**
+- **aPriori**
+- **Reinforcement Learning**
+- **Artificial Neural Network (ANN)**
+- **Principal Component Analysis (PCA)**
+- **AdaBoost**
+- **Clustering Algorithms**
