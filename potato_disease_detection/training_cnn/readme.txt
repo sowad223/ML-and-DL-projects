@@ -1,10 +1,10 @@
-Potato Disease Detection
+**Potato Disease Detection**
 This repository is dedicated to developing and experimenting with various machine learning models for detecting diseases in potato plants based on image data. The project aims to accurately classify different types of potato diseases, ultimately helping farmers and agricultural professionals make informed decisions.
 
-Project Overview
+**Project Overview**
 Potato crops are susceptible to a variety of diseases that can severely affect yield and quality. Early detection and accurate identification of these diseases are crucial for effective management and control. In this project, we aim to build a robust image classification system that can identify different potato diseases using machine learning models.
 
-Models Implemented
+**Models Implemented**
 1. Convolutional Neural Network (CNN)
 Architecture:
 
