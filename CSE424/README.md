@@ -1,3 +1,5 @@
+
+
 **TASK02**
 
 **1. Detection and Monitoring of Maltese Shoreline Changes using Sentinel-2 Imagery**
@@ -14,3 +16,13 @@ This paper presents a comprehensive assessment of the vulnerability of the Lucan
 **Deep Learning-Based Prediction of Deforestation and Vegetation Degradation Using Satellite Imagery with a ResNet-50 CNN Model**
  
  we have used a resnet50 a pre trained cnn model to predict the class the dataset has 10 classes. first we predicted it then we check for the greenery of the images. as the sentinel-2 images have blackish green image for forest zone so if the green is not> 30% we predict that the zone is devegetation or deforestation zone. the threshold can depend upon the dataset and the individual.
+
+
+ **TASK04**
+
+here is the presentation link:
+https://www.youtube.com/watch?v=egIcjx9BE8Q
+
+here is the slides:
+https://docs.google.com/presentation/d/1njyihYZ3KyDBTQ26UNTkgGRtfV9GyAwt/edit#slide=id.p1
+
