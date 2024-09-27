@@ -28,5 +28,8 @@ This paper presents a comprehensive assessment of the vulnerability of the Lucan
  we have used a resnet50 a pre trained cnn model to predict the class the dataset has 10 classes. first we predicted it then we check for the greenery of the images. as the sentinel-2 images have blackish green image for forest zone so if the green is not> 30% we predict that the zone is devegetation or deforestation zone. the threshold can depend upon the dataset and the individual.
 
 
+## License
+
+This project is licensed under the [GNU LICENSE](./LICENSE).
 
 
