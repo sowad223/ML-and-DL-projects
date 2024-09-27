@@ -19,10 +19,12 @@ This paper presents a comprehensive assessment of the vulnerability of the Lucan
 
 
  **TASK04**
+click  to view our report [here](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE424/task4/mini_report_and%20plag_check/Deep_Learning_Techniques_for_detecting_vegetation__with_Satellite_Imaginary.pdf)
 
-here is the presentation link:
-https://www.youtube.com/watch?v=egIcjx9BE8Q
+here is the [presentation](https://www.youtube.com/watch?v=egIcjx9BE8Q)
 
-here is the slides:
-https://docs.google.com/presentation/d/1njyihYZ3KyDBTQ26UNTkgGRtfV9GyAwt/edit#slide=id.p1
+here is the [slides](https://docs.google.com/presentation/d/1njyihYZ3KyDBTQ26UNTkgGRtfV9GyAwt/edit#slide=id.p1)
 
+here is our [code](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE424/task4/cse424_EUROSAT%2BEDA.ipynb)
+
+here is our EDA [report](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE424/task4/task4c2/PRE_AND_POST_EDA_AND_DATASETLINK.pdf)
