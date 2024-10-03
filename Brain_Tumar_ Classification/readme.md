@@ -79,9 +79,13 @@ ML-and-DL-projects/
 - [Matplotlib](https://matplotlib.org/)
 - [scikit-learn](https://scikit-learn.org/)
 
-![](https://opensource.org/files/OSI_Approved_Logo.svg)
+
 
 ## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 MIT License
 
