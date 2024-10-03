@@ -1,5 +1,9 @@
 # Brain Tumor Classification
 **DATASET:** https://www.kaggle.com/code/shivamagarwal29/brain-tumor-classification
+**deployed the model locally on Segnet for prediction built a simple website which will predict and store the results of the users according to classes. users_upload subdirectory will be create when given a picture by the user.***
+
+In [this](https://github.com/sowad223/ML-and-DL-projects/tree/main/Brain_Tumar_%20Classification/web) all the documents and code related to deployment and saving pictures are there.
+
 ## Overview
 
 This project aims to classify brain tumor images using deep learning techniques. Four different models have been implemented, including SegNet, DeepLab, Fully Convolutional Network (FCN), and Convolutional Neural Network (CNN). Each model is designed to effectively handle the classification task of brain tumor images into four categories:
