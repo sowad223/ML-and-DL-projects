@@ -1,6 +1,7 @@
 # Brain Tumor Classification
 **DATASET:** https://www.kaggle.com/code/shivamagarwal29/brain-tumor-classification
-**deployed the model locally on Segnet for prediction built a simple website which will predict and store the results of the users according to classes. users_upload subdirectory will be create when given a picture by the user.***
+
+**deployed the model locally on Segnet for prediction built a simple website which will predict and store the results of the users according to classes. users_upload subdirectory will be create when given a picture by the user.**
 
 In [this](https://github.com/sowad223/ML-and-DL-projects/tree/main/Brain_Tumar_%20Classification/web) all the documents and code related to deployment and saving pictures are there.
 
