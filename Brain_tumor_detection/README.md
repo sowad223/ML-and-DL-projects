@@ -22,7 +22,7 @@ This project implements a deep learning model for brain tumor detection using tw
 Usage
 ### Loading the Model
 You can load and use the trained models as follows:
-```python
+python
 from keras.models import load_model
 # Load the ResNet50 model
 resnet_model = load_model('resnet50_model.h5')
@@ -47,8 +47,7 @@ resnet_model.fit(X_train, y_train, epochs=10, batch_size=32, validation_data=(X_
 cnn_lstm_model.fit(X_train, y_train_encoded, epochs=10, batch_size=32, validation_data=(X_val,
 y_val_encoded))
 
-License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request.
 Acknowledgements
