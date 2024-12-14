@@ -97,10 +97,5 @@ Each model is trained on the dataset and evaluated using metrics like accuracy, 
 4. **Model Comparison**:
    - Compare models and select the one with the best performance metrics for clinical use.
 
-## Requirements
 
-To run this project, ensure you have the necessary libraries installed:
-
-```bash
-pip install pandas scikit-learn xgboost matplotlib seaborn
 **Mendeley Datasets:** https://data.mendeley.com/datasets/8wk5hjx7x2/1
