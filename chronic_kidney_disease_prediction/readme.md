@@ -9,6 +9,9 @@ A web-based application to predict chronic disease status using user-provided me
 - Displays a detailed result page with the prediction outcome.
 - Option to try again and re-enter data.
 
+## Results
+![Prediction Result Screenshot](https://github.com/sowad223/ML-and-DL-projects/blob/main/chronic_kidney_disease_prediction/result/Screenshot%202024-12-16%20065811.png?raw=true)
+
 ## Tech Stack
 - **Backend**: Flask (Python)
 - **Frontend**: HTML, CSS
