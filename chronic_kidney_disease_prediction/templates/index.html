@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronic Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Chronic Disease Prediction</h1>
+    <form action="/predict" method="POST">
+        <div class="form-group">
+            <label for="id">ID:</label>
+            <input type="text" name="id" id="id" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="bp">Blood Pressure:</label>
+            <input type="number" name="bp" id="bp" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="sg">Specific Gravity:</label>
+            <input type="number" name="sg" id="sg" step="0.001" required>
+        </div>
+        <div class="form-group">
+            <label for="al">Albumin:</label>
+            <input type="number" name="al" id="al" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="su">Sugar:</label>
+            <input type="number" name="su" id="su" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="rbc">Red Blood Cells:</label>
+            <select name="rbc" id="rbc" required>
+                <option value="normal">Normal</option>
+                <option value="abnormal">Abnormal</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="pc">Pus Cell:</label>
+            <select name="pc" id="pc" required>
+                <option value="normal">Normal</option>
+                <option value="abnormal">Abnormal</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="pcc">Pus Cell Clumps:</label>
+            <select name="pcc" id="pcc" required>
+                <option value="notpresent">Not Present</option>
+                <option value="present">Present</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="bgr">Blood Glucose Random:</label>
+            <input type="number" name="bgr" id="bgr" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="bu">Blood Urea:</label>
+            <input type="number" name="bu" id="bu" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="sc">Serum Creatinine:</label>
+            <input type="number" name="sc" id="sc" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="sod">Sodium:</label>
+            <input type="number" name="sod" id="sod" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="pot">Potassium:</label>
+            <input type="number" name="pot" id="pot" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="hemo">Hemoglobin:</label>
+            <input type="number" name="hemo" id="hemo" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="pcv">Packed Cell Volume:</label>
+            <input type="number" name="pcv" id="pcv" required>
+        </div>
+        <div class="form-group">
+            <label for="wc">White Blood Cell Count:</label>
+            <input type="number" name="wc" id="wc" required>
+        </div>
+        <div class="form-group">
+            <label for="rc">Red Blood Cell Count:</label>
+            <input type="number" name="rc" id="rc" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="htn">Hypertension:</label>
+            <select name="htn" id="htn" required>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="dm">Diabetes Mellitus:</label>
+            <select name="dm" id="dm" required>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="cad">Coronary Artery Disease:</label>
+            <select name="cad" id="cad" required>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="appet">Appetite:</label>
+            <select name="appet" id="appet" required>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="pe">Pedal Edema:</label>
+            <select name="pe" id="pe" required>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="ane">Anemia:</label>
+            <select name="ane" id="ane" required>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+        </div>
+        <div class="form-group full-width">
+            <button type="submit">Predict</button>
+        </div>
+    </form>
+</body>
+</html>

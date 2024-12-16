@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f9a8d4, #a6c1ee);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        /* Header Styles */
+        h1 {
+            color: #fff;
+            font-size: 2.5rem;
+            text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+        }
+
+        /* Result Box */
+        p {
+            background-color: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            font-size: 1.5rem;
+            font-weight: bold;
+            width: 400px;
+            margin: 0 auto 20px;
+            text-align: center;
+        }
+
+        /* Button Link */
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #34d399, #3b82f6);
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        a:hover {
+            background: linear-gradient(135deg, #3b82f6, #34d399);
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>{{ prediction }}</p>
+    <a href="/">Try Again</a>
+</body>
+</html>
+

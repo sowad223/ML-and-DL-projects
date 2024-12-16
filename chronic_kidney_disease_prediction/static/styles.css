@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Form Container */
+form {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+}
+
+/* Labels and Inputs */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+}
+
+/* Focus Effect on Inputs */
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form select:focus {
+    border-color: #34d399;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 211, 153, 0.5);
+}
+
+/* Button Styles */
+form button {
+    background: linear-gradient(135deg, #34d399, #3b82f6);
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+form button:hover {
+    background: linear-gradient(135deg, #3b82f6, #34d399);
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Side-by-Side Layout for Inputs */
+form .form-group {
+    flex: 1 1 calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form .form-group.full-width {
+    flex: 1 1 100%;
+}
+
+/* Jolly Colors and Effects */
+form {
+    border: 2px dashed #34d399;
+    background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+}
+
+form .form-group:nth-child(odd) {
+    background: #f9f7ff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group:nth-child(even) {
+    background: #ffe8e8;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
