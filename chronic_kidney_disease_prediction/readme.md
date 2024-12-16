@@ -8,9 +8,10 @@ A web-based application to predict chronic disease status using user-provided me
 - Predicts whether a user has a chronic disease based on the provided medical parameters.
 - Displays a detailed result page with the prediction outcome.
 - Option to try again and re-enter data.
+- 
+## Home Page
+![Data from Users](https://github.com/sowad223/ML-and-DL-projects/blob/main/chronic_kidney_disease_prediction/result/Screenshot%202024-12-16%20060147.png?raw=true)
 
-## Results
-![Prediction Result Screenshot](https://github.com/sowad223/ML-and-DL-projects/blob/main/chronic_kidney_disease_prediction/result/Screenshot%202024-12-16%20065811.png?raw=true)
 
 ## Tech Stack
 - **Backend**: Flask (Python)
@@ -72,3 +73,9 @@ chronic-disease-prediction/
 │   ├── styles.css         # Styling for the application
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation
+
+
+
+
+## Results
+![Prediction Result Screenshot](https://github.com/sowad223/ML-and-DL-projects/blob/main/chronic_kidney_disease_prediction/result/Screenshot%202024-12-16%20065811.png?raw=true)
