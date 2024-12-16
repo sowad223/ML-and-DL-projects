@@ -60,6 +60,12 @@ Ensure the following are installed on your system:
 3. View the prediction result, which indicates whether a chronic disease is detected.
 4. Use the **Try Again** button to reset the form and input new data.
 
+
+## Results
+
+![Prediction Result Screenshot](https://github.com/sowad223/ML-and-DL-projects/blob/main/chronic_kidney_disease_prediction/result/Screenshot%202024-12-16%20065811.png?raw=true)
+
+
 ## Project Structure
 
 ```plaintext
@@ -73,6 +79,7 @@ chronic-disease-prediction/
 │   ├── styles.css         # Styling for the application
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation
+
 
 
 
