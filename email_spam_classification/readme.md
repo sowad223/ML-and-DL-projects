@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sowad223/email_spam_classification
+   git clone https://github.com/sowad223/Ml-and DL-projects/email_spam_classification
    ```
 
 
