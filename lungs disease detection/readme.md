@@ -1,1 +1,1 @@
-
+it is made up using 4 dataset here i have used resnet50, efficientnetb5 and vgg16 although the accurcies are good but the generelization is not that good for every class. so i am trying to make it more generelized.
