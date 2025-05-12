@@ -17,4 +17,4 @@ projects.
 [Notes](https://colab.research.google.com/drive/1mfi_-JZPQBZssFJG_oOz7HL6W0Sr4uFh)
 
 
-## This repo contains the lab assignments of CSE463(Summer 2025)
+## This folder contains the lab assignments of CSE463(Summer 2025)
