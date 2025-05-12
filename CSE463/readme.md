@@ -14,5 +14,7 @@ projects.
 ## [LAB RESOURCES](https://drive.google.com/drive/folders/113coBWGu9_RTipVciP6oSuHGDzYMKp2n)
 
 
-## [Lab 1 : Introduction_to_Computer_Vision](https://drive.google.com/drive/folders/12ciHrB6xHeOugQWVFJYF8ueht8ppcli0)
 [Notes](https://colab.research.google.com/drive/1mfi_-JZPQBZssFJG_oOz7HL6W0Sr4uFh)
+
+
+## This repo contains the lab assignments of CSE463(Summer 2025)
