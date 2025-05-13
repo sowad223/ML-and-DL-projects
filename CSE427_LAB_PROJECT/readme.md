@@ -31,7 +31,7 @@ Installation
 Clone the repository: 
 
 git clone https://github.com/sowad223/ML-and-DL-projects.git
-cd ML-and-DL-projects/CSE427_LAB_PROJECT
+
 
 
 Install dependencies:
@@ -87,13 +87,7 @@ F1 Score Plot:
 Sample Predictions
 The following image shows a sample prediction, including the input MRI (channel 0), true mask, predicted mask, and Grad-CAM overlay:
 
-Visualization:
 
-Project Structure
-CSE427_LAB_PROJECT/
-├── main.py               # Main script for training and prediction
-├── cse427_results/       # Directory containing results (plots, visualizations)
-└── README.md             # Project documentation
 
 Notes
 
