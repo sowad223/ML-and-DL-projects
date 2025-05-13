@@ -9,13 +9,13 @@ Grad-CAM Visualization: Heatmaps to highlight regions contributing to prediction
 Training and Evaluation: 10 epochs of training with validation, saving the best model based on validation loss.
 Results Visualization: Plots of loss, Dice, IoU, and F1 scores, along with prediction visualizations.
 
-Dataset
+## Dataset
 
 BraTS 2020: Multi-modal MRI scans stored in .h5 files, with 4 input channels and segmentation masks.
 Preprocessing: Images and masks resized to 128x128, normalized, and converted to PyTorch tensors.
 Split: 80% training, 20% validation.
 
-Requirements
+## Requirements
 
 Python 3.8+
 PyTorch
@@ -26,7 +26,7 @@ h5py
 Matplotlib
 Kaggle environment with GPU (recommended)
 
-Installation
+## Installation
 
 Clone the repository: 
 
@@ -34,7 +34,7 @@ git clone https://github.com/sowad223/ML-and-DL-projects.git
 
 
 
-Install dependencies:
+## Install dependencies:
 
 pip install torch numpy scikit-learn scikit-image h5py matplotlib
 
@@ -46,7 +46,7 @@ Usage
 Run the main script to train the model and generate results:python main.py
 
 
-The script will:
+## The script will:
 Train the U-Net model for 10 epochs.
 Save the best model (model-unet.best.pth) and final model (final_model_unet.pth).
 Save training history (training_history.json).
@@ -58,7 +58,7 @@ View results in the cse427_results directory:ML-and-DL-projects/CSE427_LAB_PROJE
 
 
 
-Results
+## Results
 
 Metrics: Training and validation loss, Dice, IoU, and F1 scores are plotted and saved.
 Visualizations: Input images, true masks, predicted masks, and Grad-CAM overlays are generated for sample predictions.
@@ -96,9 +96,9 @@ The script checks for GPU availability and uses mixed precision training for eff
 Grad-CAM is applied to the dec1 layer; modify the layer name in GradCAM for other layers.
 For improved performance, consider increasing epochs, adding data augmentation, or using additional loss functions.
 
-License
+## License
 This project is licensed under the MIT License.
-Acknowledgments
+## Acknowledgments
 
 BraTS 2020 dataset providers.
 Kaggle for providing the computational environment.
