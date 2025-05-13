@@ -78,6 +78,8 @@ The following plots show the training and validation metrics over 10 epochs:
 Loss Plot:
 
 Dice Coefficient Plot:
+**Dice Coefficient Plot**:
+  ![Dice Plot](https://raw.githubusercontent.com/sowad223/ML-and-DL-projects/main/CSE427_LAB_PROJECT/cse427_results/dice_plot.png)
 
 IoU Plot:
 
