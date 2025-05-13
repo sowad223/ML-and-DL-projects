@@ -75,19 +75,23 @@ Results are available at: cse427_results
 Training Metrics
 The following plots show the training and validation metrics over 10 epochs:
 
-Loss Plot:
+**Loss Plot**:
+  ![Loss Plot](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE427_LAB_PROJECT/cse427_results/loss_plot.png)
 
-Dice Coefficient Plot:
 **Dice Coefficient Plot**:
   ![Dice Plot](https://raw.githubusercontent.com/sowad223/ML-and-DL-projects/main/CSE427_LAB_PROJECT/cse427_results/dice_plot.png)
 
-IoU Plot:
+**IoU Plot**:
+  ![IoU Plot](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE427_LAB_PROJECT/cse427_results/iou_plot.png)
 
-F1 Score Plot:
+**F1 Score Plot**:
+  ![F1 Score Plot](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE427_LAB_PROJECT/cse427_results/f1_plot.png)
 
 
-Sample Predictions
+**Sample Predictions**
 The following image shows a sample prediction, including the input MRI (channel 0), true mask, predicted mask, and Grad-CAM overlay:
+  ![Vizualization of Prediction](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE427_LAB_PROJECT/cse427_results/visualization_1.png)
+
 
 
 
