@@ -28,11 +28,15 @@ Kaggle environment with GPU (recommended)
 
 Installation
 
-Clone the repository:git clone https://github.com/sowad223/ML-and-DL-projects.git
+Clone the repository: 
+
+git clone https://github.com/sowad223/ML-and-DL-projects.git
 cd ML-and-DL-projects/CSE427_LAB_PROJECT
 
 
-Install dependencies:pip install torch numpy scikit-learn scikit-image h5py matplotlib
+Install dependencies:
+
+pip install torch numpy scikit-learn scikit-image h5py matplotlib
 
 
 Download the BraTS 2020 dataset and place it in the appropriate directory (e.g., /kaggle/input/brats2020-training-data/).
