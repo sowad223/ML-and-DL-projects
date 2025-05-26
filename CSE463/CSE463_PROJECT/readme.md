@@ -27,9 +27,28 @@ A U-Net implementation for automated spleen segmentation from CT scans, trained 
 
 ## Dataset Structure⚙️
 
-Task09_Spleen/
-├── imagesTr/       # Training images (.nii or .nii.gz)
-├── labelsTr/       # Training labels
-├── imagesTs/       # Test images (optional)
-└── labelsTs/       # Test labels (optional)
+
+
+1. **Training Set (required)**
+   - `imagesTr/`: Directory containing 3D CT volumes
+     - File format: `.nii` or `.nii.gz`
+     - Shape: (Width, Height, Slices)
+     - Values: Hounsfield Units (HU)
+   - `labelsTr/`: Directory containing segmentation masks
+     - Binary masks (0: background, 1: spleen)
+     - Must have exact same filenames as corresponding images
+
+2. **Test Set (optional)**
+   - `imagesTs/`: For final evaluation/prediction
+   - `labelsTs/`: Only needed if you want to evaluate test performance
+
+### Important Notes:
+
+- Files must be **paired** (image and label with identical names)
+- Supported formats: `.nii` or compressed `.nii.gz`
+- The loader automatically:
+  - Applies CT windowing (-100 to 400 HU)
+  - Normalizes to [0,1] range
+  - Uses adjacent slices for 3-channel input
+  - Filters out slices without spleen tissue during training
 
