@@ -17,7 +17,7 @@ A U-Net implementation for automated spleen segmentation from CT scans, trained 
 
 ## Model Architecture 🧠
 
-![U-Net Architecture](https://miro.medium.com/max/1400/1*f7YOaE4TWubwaFF7Z1fzNw.png)
+![Enhanced Unet Architecture ](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE463/CSE463_PROJECT/archi.jpg)
 
 ### Key Components:
 - **Encoder Path**: 4 downsampling blocks with max pooling
@@ -52,3 +52,9 @@ A U-Net implementation for automated spleen segmentation from CT scans, trained 
   - Uses adjacent slices for 3-channel input
   - Filters out slices without spleen tissue during training
 
+## Results:
+
+![metrics distribution](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE463/CSE463_PROJECT/output/metrics_distribution.png)
+
+## Vizualization:
+![metrics distribution](https://github.com/sowad223/ML-and-DL-projects/blob/main/CSE463/CSE463_PROJECT/output/sample_0_0%20(3).png)
